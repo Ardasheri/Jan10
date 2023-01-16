@@ -24,6 +24,4 @@ provided by a user and then from that range prints the sum of the even and odd i
             }
         }
 
-        System.out.println("Sum of even numbers in the range: " + evenSum);
-        System.out.println("Sum of odd numbers in the range: " + oddSum);
     }}
