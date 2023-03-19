@@ -1,19 +1,10 @@
-package Homework;
+package class02;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class Hw2 {
-    /*
-    HW2
-navigate to fb.com
-click on create new account
-fill up all the textboxes
-click on sign up button
-close the pop up
-close the browser
-     */
+public class locatingElements {
     public static void main(String[] args) {
 
 //        tell your project where the webdriver is located.
@@ -40,4 +31,5 @@ close the browser
 
         driver.quit();
     }
+
 }

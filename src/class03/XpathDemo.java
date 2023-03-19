@@ -24,9 +24,5 @@ public class XpathDemo {
         WebElement passwordText = driver.findElement(By.xpath("//label[text()='Password:']"));
         String pasText =passwordText.getText();
         System.out.println(pasText);
-
-
-
-
     }
 }
